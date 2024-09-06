@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleTask.Domain\SimpleTask.Domain.csproj" />
+    <ProjectReference Include="..\..\Shared\SimpleTask.Communication\SimpleTask.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\SimpleTask.Exceptions\SimpleTask.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
